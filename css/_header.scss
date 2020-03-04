@@ -1,0 +1,31 @@
+.header{
+    
+
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__nav{
+        list-style: none;
+        display: flex;
+    }
+
+    &__link{
+        text-decoration: none;
+        padding: 0 15px;
+        font-size: 18px;
+        font-family: 'Ubuntu';
+        font-weight: 300;
+        color: #464646;
+
+        &:hover{
+            color: #C4C4BC;
+        }
+    }
+
+    &__img{
+        height: 160px;
+    }
+}
