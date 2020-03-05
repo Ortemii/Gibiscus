@@ -1,0 +1,14 @@
+.events {
+
+    display: flex;
+    justify-content: space-between;
+
+    &__block {
+        height: 400px;
+        width: 310px;
+        overflow: hidden;
+
+    }
+
+
+}
